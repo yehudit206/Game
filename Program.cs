@@ -8,7 +8,7 @@ namespace Game
 {
     class Program
     {
-        public static Position currentPosition { get; set; } //Will represent our here that's moving around :P/>
+        public static Position currentPosition { get; set; }
         public static List<Position> allPoints = new List<Position>();
         public static int step = 0;
         public static Random rnd = new Random();
